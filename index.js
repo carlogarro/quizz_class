@@ -1,6 +1,8 @@
 import express from 'express';
 import { JSONFilePreset } from 'lowdb/node';
 
+// check also with sqlite3
+
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -9,11 +11,9 @@ app.use(express.static('public'));
 app.use(express.json({ limit: '1mb' }));
 
 const defaultData = { students: [] };
-const db = await JSONFilePreset('db.json', defaultData);
-
+const db = await JSONFilePreset('public/db.json', defaultData);
 
 app.post('/api', (request, response) => {
-    console.log(request.body);
     db.data = request.body;
     db.write();
     response.json({
