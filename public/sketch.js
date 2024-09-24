@@ -31,8 +31,7 @@ students = [
 ]
 
 function preload() {
-    //loadJSON("https://raw.githubusercontent.com/carlogarro/quizz-class/refs/heads/main/pointsA.json?token=GHSAT0AAAAAACXULU7NXDDZZCY263ILNUACZXSZMUA", loadData);
-    //loadJSON("points.json", loadData);
+    loadJSON("./db.json", loadData);
 }
 
 function setup() {
@@ -43,21 +42,20 @@ function setup() {
 }
 
 function draw() {
-    textSize(200);
-    if (nextStudent) {
-        textAlign(CENTER, CENTER);
-
-        text(students[currentStudent].name, width / 2, height / 2);
-    }
     textSize(20);
     textAlign(LEFT, CENTER);
     text("Next student (SPACE BAR)", 0, height - 50);
-    textAlign(LEFT, CENTER);
-    text("🤏 ↔️", width / 2, height - 50);
-    textAlign(CENTER, CENTER);
-    text("👍 ⬆️", (3 * width) / 4, height - 50);
-    textAlign(RIGHT, CENTER);
-    text("👎 ⬇️", width, height - 50);
+    if (nextStudent) {
+        textAlign(LEFT, CENTER);
+        text(`${students[currentStudent].normal}/${students[currentStudent].tries}` + "🤏 ↔️", width / 2, height - 50);
+        textAlign(CENTER, CENTER);
+        text(`${students[currentStudent].correct}/${students[currentStudent].tries}` + "👍 ⬆️", (3 * width) / 4, height - 50);
+        textAlign(RIGHT, CENTER);
+        text(`${students[currentStudent].incorrect}/${students[currentStudent].tries}` + "👎 ⬇️", width, height - 50);
+        textSize(200);
+        textAlign(CENTER, CENTER);
+        text(students[currentStudent].name, width / 2, height / 2);
+    }
 }
 
 function loadData(studentsData) {
@@ -90,6 +88,7 @@ function keyPressed() {
         background("#FFFBC1");
         students[currentStudent].tries++;
         students[currentStudent].normal++;
+        sendData(students);
         //saveJSON(students, 'pointsA.json');
         // setTimeout(resetScreen, 5000);
     }
@@ -98,6 +97,7 @@ function keyPressed() {
         background("#B6E2A1");
         students[currentStudent].tries++;
         students[currentStudent].correct++;
+        sendData(students);
         //saveJSON(students, 'pointsA.json');
         setTimeout(resetScreen, 5000);
     }
@@ -105,8 +105,20 @@ function keyPressed() {
         background("#FEBE8C");
         students[currentStudent].tries++;
         students[currentStudent].incorrect++;
+        sendData(students);
         //saveJSON(students, 'pointsA.json');
         setTimeout(resetScreen, 5000);
     }
 
+}
+
+function sendData(data) {
+    const options = {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data)
+    };
+    fetch('/api', options);
 }
