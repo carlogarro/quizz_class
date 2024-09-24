@@ -1,8 +1,8 @@
 [
   {
     "name": "Andrea",
-    "tries": 3,
-    "correct": 2,
+    "tries": 4,
+    "correct": 3,
     "normal": 0,
     "incorrect": 1
   },
@@ -22,8 +22,8 @@
   },
   {
     "name": "Kenzo",
-    "tries": 3,
-    "correct": 3,
+    "tries": 0,
+    "correct": 0,
     "normal": 0,
     "incorrect": 0
   }

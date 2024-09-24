@@ -1,34 +1,4 @@
 currentStudent = NaN;
-students = [
-    {
-        "name": "Andrea",
-        "tries": 0,
-        "correct": 0,
-        "normal": 0,
-        "incorrect": 0
-    },
-    {
-        "name": "Martina A",
-        "tries": 0,
-        "correct": 0,
-        "normal": 0,
-        "incorrect": 0
-    },
-    {
-        "name": "Bruno",
-        "tries": 0,
-        "correct": 0,
-        "normal": 0,
-        "incorrect": 0
-    },
-    {
-        "name": "Kenzo",
-        "tries": 0,
-        "correct": 0,
-        "normal": 0,
-        "incorrect": 0
-    }
-]
 
 function preload() {
     loadJSON("./db.json", loadData);

@@ -16,7 +16,6 @@ app.post('/api', (request, response) => {
     console.log(request.body);
     db.data = request.body;
     db.write();
-    db.write();
     response.json({
         status: "success"
     })
