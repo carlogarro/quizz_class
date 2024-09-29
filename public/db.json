@@ -1,30 +1,437 @@
 [
   {
-    "name": "Andrea",
-    "tries": 3,
-    "correct": 2,
-    "normal": 0,
-    "incorrect": 1
-  },
-  {
-    "name": "Martina A",
-    "tries": 1,
-    "correct": 1,
-    "normal": 0,
-    "incorrect": 0
-  },
-  {
-    "name": "Bruno",
-    "tries": 2,
-    "correct": 1,
-    "normal": 0,
-    "incorrect": 1
-  },
-  {
-    "name": "Kenzo",
-    "tries": 6,
-    "correct": 6,
-    "normal": 0,
-    "incorrect": 0
+    "ESO1A": [
+      {
+        "name": "Andrea",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Martina A",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Bruno",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Kenzo",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Luisa",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Marc",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Elisa",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Ivo",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Leonardo",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Martina",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Ángel",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Ramon",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Julià",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Rita",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Jhorley",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Nil",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Arnau",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Berta",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Abril",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Heidi",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      }
+    ],
+    "ESO1B": [
+      {
+        "name": "Elsa",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Laila",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Quim",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Mateo",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Jan",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Ausiàs",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Jan",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Ndaraw",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Zoe",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Ari",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Valeria",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Emily",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Max",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Uxia",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Aina N",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Rocco",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Yago",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Núria",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Oihan",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Emma",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Aina S",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      }
+    ],
+    "ESO1C": [
+      {
+        "name": "Sayann",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Jan",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Usman",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Gabi",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Pedro",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Mateo",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Marc",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Jaume",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Matteo",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Iker",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Lou",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Mara",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Íria",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Aisling",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Norah",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Aitana",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Carlos",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Angi",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Joan",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      },
+      {
+        "name": "Deivin",
+        "tries": 0,
+        "correct": 0,
+        "normal": 0,
+        "incorrect": 0
+      }
+    ]
   }
 ]
